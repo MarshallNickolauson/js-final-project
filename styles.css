@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.home-section {
+    background-image: url('beach.JPG');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-us-section, .contact-us-section, .recommendations-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recommendation {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.recommendation img {
+    max-width: 100%;
+}
